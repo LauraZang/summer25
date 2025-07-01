@@ -1,0 +1,25 @@
+h1, h2 {
+    color: rgb(27, 167, 80);
+    text-decoration: underline;
+  }
+  p {
+    color: gray;
+  }
+  ul {
+    border: 2px solid orange;
+    background-color: bisque;
+  }
+  ol {
+    border: 2px solid purple;
+    background-color: plum;
+  }
+  ol, ul {
+    padding: 5px 20px;
+    border-radius: 4px;
+  }
+  h1, strong {
+    color: rgb(8, 75, 74);
+  }
+  em {
+    color: gray;
+  }
