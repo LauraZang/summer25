@@ -71,9 +71,8 @@ select:focus, select:active, input:focus, input:active, input:focus + label, inp
 
 
 #formcol1 input.reqfield {
-	background:#FF9;
+	background:#BF6315;
 }
-
 
 /* end of form css */
 	
