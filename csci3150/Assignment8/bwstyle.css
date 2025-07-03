@@ -43,7 +43,8 @@ h2 {
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 p, li {
@@ -54,6 +55,7 @@ p, li {
 /* || header layout */
 
 header {
+  width: 100%;
   margin-bottom: 10px;
   display: flex;
   flex-flow: row wrap;
@@ -67,6 +69,10 @@ body > * {
 main, header, nav, article, aside, footer, section {
   background-color: rgba(0,255,0,0.5);
   padding: 1%;
+}
+
+nav {
+  background-color: rgba(102, 255, 102, 0.5)  ;
 }
 
 h1 {
