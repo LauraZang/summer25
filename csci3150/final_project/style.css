@@ -1,0 +1,143 @@
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  
+  .tiles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .tile img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .tile:hover img {
+    transform: scale(1.03);
+  }
+  
+  /* HERO SECTION */
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(to bottom, #c3e2ed, #9cc9db);
+    padding: 3rem 2rem;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .hero-left {
+    flex: 1 1 60%;
+    z-index: 2;
+  }
+  
+  .hero-left h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+  }
+  
+  .hero-left h2 {
+    font-size: 2.5rem;
+    background: #003848;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .wave-line {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+  }
+  
+  .hero-hearts {
+    flex: 1 1 30%;
+    min-height: 300px;
+    background-image: url("img/hearts-pattern.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+  }
+  
+  .mission {
+    background: white;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .mission-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    border-radius: 12px;
+  }
+  
+  .mission-box h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .mission-icon {
+    width: 60px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .mission-box p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .hearts-divider {
+    margin-top: 1.5rem;
+    width: 180px;
+    height: auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+  .bold {
+    font-weight: 700;         
+    color:rgb(74, 140, 209);         
+    font-size: 2rem;  
+  }
+
+  a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 3px solid #ff6600;   /* Bright orange */
+  outline-offset: 2px;          /* Space between element and outline */
+  border-radius: 4px;
+}
+
+a:focus img {
+    outline: 3px solid #ff6600;
+    outline-offset: 4px;
+    border-radius: 6px;
+  }
+
+  
